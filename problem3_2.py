@@ -101,7 +101,6 @@ class Point:
 			return True
 
 if __name__=='__main__':  
-#this is a mocking data just for test  
 	vecPoint = [Point(2,4,'p'), Point(3,3,'v'), Point(3,4,'q'), Point(5,4,'r'), Point(5,6,'h'), Point(5,8,'a'), Point(6,4,'s'), Point(6,5,'k'), Point(6,7,'d'), Point(7,3,'w'),Point(7,4,'t'),Point(8,2,'x'),Point(9,4,'l'),Point(10,6,'i'),Point(10,7,'e'),Point(10,8,'b'),Point(11,5,'m'),Point(11,8,'c'),Point(12,7,'f'),Point(13,6,'j'),Point(13,7,'g'),Point(14,6,'n'),Point(15,4,'u'),Point(15,5,'o')]  
 #Create object  
 dbScan = DBSCAN()  
