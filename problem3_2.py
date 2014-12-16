@@ -68,8 +68,7 @@ class DBSCAN:
 		for i in range(len(self.DB)):  
 			p_tmp = self.DB[i]  
 			if self.dist(P, p_tmp) <= self.esp:  
-				if not P.equal(p_tmp):
-					pointInRegion.append(p_tmp)  
+				pointInRegion.append(p_tmp)  
 	  	return pointInRegion  
 
    	def dist(self, p1, p2):  
