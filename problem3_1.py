@@ -9,9 +9,10 @@ for ele in arr:
 	nei_index = 0
 	for nei in arr:
 		dist = math.sqrt((nei[0] - ele[0])**2 + (nei[1] - ele[1])**2)
-		if ele != nei and dist <= 2:
+		if dist <= 2:
 			nei_count += 1
-			nei_arr.append(label[nei_index])
+			if ele != nei:
+				nei_arr.append(label[nei_index])
 		nei_index += 1
 	if nei_count >= 3:
 		core_list.append(label[index])
